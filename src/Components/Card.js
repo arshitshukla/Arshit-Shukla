@@ -1,6 +1,6 @@
 import React from 'react';
 import './ProjectCard.css';
-import {NavLink} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 const Card = (props) => {
   return (
@@ -10,8 +10,8 @@ const Card = (props) => {
             <p>{props.text}</p>
             <p className='up'>Technologies Used : <p className='low'>{props.tech}</p></p>
             <div className='Project-btns'>
-                <NavLink to={props.view} className="btn">View</NavLink>
-                <NavLink to={props.source} className="btn">Source</NavLink>
+                <Link to={props.view} className="btn">View</Link>
+                <Link to={props.source} className="btn">Source</Link>
             </div>
         </div>
     </div>
