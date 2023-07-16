@@ -1,0 +1,66 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    z-index: 10;
+}
+.Header-bg{
+    background-color: black;
+    transition: 0.5s;
+}
+
+.Header-bg h1:hover{
+    color: rgb(204, 204, 204);
+}
+.Header h1:hover{
+    color: rgb(204, 204, 204);
+}
+.nav-elements{
+    display: flex;
+}
+.nav-elements li{
+    padding: 0 1rem;
+}
+.nav-elements li:hover{
+    scale: 1.2;
+}
+.nav-elements li a{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1040px) {
+    .nav-elements{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0,0,0,0.9);
+        position: absolute;
+        top: 0;
+        left: -100%;
+        z-index: -3;
+        transition: 0.3s;
+    }
+    .active{
+        left: 0;
+    }
+    .nav-elements li{
+        padding: 1rem 0;
+    }
+    .nav-elements li a{
+        font-size: 2rem;
+    }
+    .hamburger{
+        display: initial;
+    }
+}
