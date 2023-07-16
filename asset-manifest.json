@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Arshit-Shukla/static/css/main.e5ef44d6.css",
-    "main.js": "/Arshit-Shukla/static/js/main.9298abd4.js",
+    "main.js": "/Arshit-Shukla/static/js/main.c4747495.js",
     "static/media/AboutImage.jpg": "/Arshit-Shukla/static/media/AboutImage.9981ba370a24f16e0b7f.jpg",
     "static/media/AboutImage2.jpg": "/Arshit-Shukla/static/media/AboutImage2.e3a92cc635ab531847f0.jpg",
     "static/media/Heroimage.jpg": "/Arshit-Shukla/static/media/Heroimage.9cb1ae533212b3557dea.jpg",
     "static/media/HeroImage2.jpg": "/Arshit-Shukla/static/media/HeroImage2.179cfaa7c933938722bb.jpg",
     "index.html": "/Arshit-Shukla/index.html",
     "main.e5ef44d6.css.map": "/Arshit-Shukla/static/css/main.e5ef44d6.css.map",
-    "main.9298abd4.js.map": "/Arshit-Shukla/static/js/main.9298abd4.js.map"
+    "main.c4747495.js.map": "/Arshit-Shukla/static/js/main.c4747495.js.map"
   },
   "entrypoints": [
     "static/css/main.e5ef44d6.css",
-    "static/js/main.9298abd4.js"
+    "static/js/main.c4747495.js"
   ]
 }
