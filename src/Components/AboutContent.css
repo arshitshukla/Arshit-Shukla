@@ -12,10 +12,10 @@
     max-width: 500px;
 }
 .about .left h1{
-    padding-top: 2rem;
+    padding: 2rem 0 0 1rem;
 }
 .about .left p{
-    margin: 1.2rem 0;
+    margin: 1.2rem 1rem;
 }
 .about .right{
     max-width: 700px;
@@ -23,7 +23,7 @@
 .skills{
     display: flex;
     flex-wrap: wrap;
-    padding-top: 1rem;
+    padding: 1rem 0 0 1rem;
 }
 .skill_inner {
     padding: 1rem 2rem;
@@ -40,6 +40,7 @@
 }
 .left .btn{
     margin-top: 2rem;
+    margin-left: 1rem;
 }
 
 .right .img-container{
