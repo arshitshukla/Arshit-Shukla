@@ -1,5 +1,19 @@
 const CardData=[
     {
+        title:"Craving Couriers food delivering Web App",
+        text:"Craving Couriers is a dynamic and user-friendly online food delivery platform developed using the MERN. Implemented registration and login functionalities providing authentication using JWT tokens.",
+        tech:"MongoDB, Express.js, React, Node.js, bcrypt.js, Express Validator, Bootstrap",
+        view:"https://extraordinary-strudel-6fc356.netlify.app/",
+        source:"https://github.com/arshitshukla/Craving-Couriers"
+    },
+    {
+        title:"eNotebook Web App",
+        text:"Developed using the MERN stack, the app offers seamless login and signup processes, alongside robust notecreation,viewing, updating, and deletion functionalities.",
+        tech:"MongoDB, Express, ReactJS, NodeJS, HTML, CSS, JavaScript, Bootstrap.",
+        view:"https://github.com/arshitshukla/eNotebook",
+        source:"https://github.com/arshitshukla/eNotebook"
+    },
+    {
         title:"Text Sculpor App",
         text:"It is an app with basic text editing facilities such as convert to uppercase or lowercase, capitalize first letter of each sentence, copy text, paste from clipboard, clear and spell the input text.",
         tech:"HTML, CSS, JavaScript, ReactJS, Bootstrap.",
